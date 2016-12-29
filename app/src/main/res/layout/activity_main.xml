@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="ftp.bg.com.myftp.act.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+
+
+<TextView
+    android:id="@+id/tv"
+    android:text="dizhi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="takePhoto"
+        android:layout_marginTop="20dp"
+        android:text="相机"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+        <Button
+            android:onClick="httpdownload"
+            android:layout_marginTop="20dp"
+            android:text="好看的对话框"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    <Button
+        android:onClick="httpupload"
+        android:layout_marginTop="20dp"
+        android:text="跳转到下一个Activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+        <Button
+        android:onClick="next2"
+        android:layout_marginTop="20dp"
+        android:text="跳转到下一个Activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:background="@color/lite_blue"
+        />
+
+    </LinearLayout>
+   <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>-->
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
