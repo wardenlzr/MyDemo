@@ -1,4 +1,4 @@
-package ftp.bg.com.myftp;
+package bg.com.myftp.myftp;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package ftp.bg.com.myftp;
+package bg.com.myftp.myftp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ftp.bg.com.myftp", appContext.getPackageName());
+        assertEquals("bg.com.myftp", appContext.getPackageName());
     }
 }

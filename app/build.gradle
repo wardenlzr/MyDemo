@@ -5,8 +5,8 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "ftp.bg.com.myftp"
-        minSdkVersion 15
+        applicationId "bg.com.myftp"
+        minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"

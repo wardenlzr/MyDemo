@@ -55,5 +55,13 @@ public class DispatchManagerActivity extends BaseActivity{
     public void nextPage(View v) {
         startActivity(new Intent(this, DispatchManagerActivity.class));
         MainActivity.Page ++;
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                // FIXME: 2017/1/9 // STOPSHIP: 2017/1/9
+            }
+        });
+        thread.start();
+        thread.destroy();
     }
 }
